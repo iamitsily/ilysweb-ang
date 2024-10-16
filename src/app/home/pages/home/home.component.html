@@ -1,0 +1,261 @@
+<app-navbar></app-navbar>
+<div class="hero bg-base-200 min-h-screen">
+    <div class="hero-content text-center">
+        <div class="max-w-lg">
+            <h1 class="text-4xl font-bold">Luis Yahir Armas López</h1>
+            <h1 class="text-3xl font-bold">Ingeniero en Computacón</h1>
+
+            <p class="py-6">
+                Persona autoddacta, siempre dispuesto a aprender cosas nuevas. Amante de la tecnología y de los avances
+                en la industria del software.
+                Experiencia en desarrollo Frontend y Backend.
+            </p>
+            <button class="btn btn-secondary" onclick="document.getElementById('proyectos').scrollIntoView({ behavior: 'smooth' });">
+                Consulta mis proyectos aquí
+              </button>
+              <br><br>
+              <a href="assets/CV_LuisYahirArmasLopez_IngenieroComputacion.pdf" download>
+                <button class="btn btn-accent">CV / Resume</button>
+              </a>
+        </div>
+    </div>
+</div>
+
+<div id="proyectos" class="flex justify-center bg-base-200">
+    <div class="divider divider-primary w-[90%]"></div>
+</div>
+<div  class="flex justify-center bg-base-200 pb-5">
+    <h1 class="text-4xl font-bold">Proyectos Personales</h1>
+  </div>
+
+<div class="flex bg-base-200 w-full flex-col lg:flex-row justify-center pb-5">
+    <div class="card bg-base-100 w-96 shadow-xl cursor-pointer" routerLink="/projects/todolist">
+        <div class="card-body">
+            <h2 class="card-title">Aplicación Web para gestionar pendientes</h2>
+            <p>(ToDoList) - 2024</p>
+            <p>Uso de tecnologías como Angular, Spring Boot, MySQL, Netlify y Azure para despliegue.</p>
+        </div>
+        <figure class="h-48 pb-4">
+            <img src="/assets/images/home/todolistLogo.png" alt="Shoes" class="w-full h-full object-contain"/>
+        </figure>
+    </div>
+    <div class="divider lg:divider-horizontal"></div>
+    <div class="card bg-base-100 w-96 shadow-xl cursor-pointer" routerLink="/projects/molar">
+        <div class="card-body">
+            <h2 class="card-title">Aplicación Android Gestión de Consultorio Dental</h2>
+            <p>(Molar) - 2023</p>
+            <p>Uso de tecnologías Front-end Java para UI/UX, Back-end Php utilizando un servidor de producción en la 
+                nube de Azure.</p>
+        </div>
+        <figure class="h-48 pb-4">
+            <img src="/assets/images/home/molarLogo.png" alt="Shoes" class="w-full h-full object-contain"/>
+        </figure>
+    </div>
+    <div class="divider lg:divider-horizontal"></div>
+    <div class="card bg-base-100 w-96 shadow-xl cursor-pointer" routerLink="/projects/nasaapi">
+        <div class="card-body">
+            <h2 class="card-title">Aplicación web para visualizar imagen del día de la NASA</h2>
+            <p>(NasaAPI) - 2024</p>
+            <p>Uso de tecnologías como Html, JavaScript, Css, JSON</p>
+        </div>
+        <figure class="h-48 pb-4">
+            <img src="/assets/images/home/NasaLogo.png" alt="Shoes" class="w-full h-full object-contain"/>
+        </figure>
+    </div>
+</div>
+
+<div class="flex bg-base-200 w-full flex-col lg:flex-row justify-center pb-5 pt-5">
+    <div class="card bg-base-100 w-96 shadow-xl cursor-pointer" routerLink="/projects/sintony">
+        <div class="card-body">
+            <h2 class="card-title">Aplicación Android Reproductor de Musica</h2>
+            <p>(Sintony) - 2023</p>
+            <p>Uso de tecnologías como Java, Android Studio, SQLite, JSON</p>
+        </div>
+        <figure class="h-48 pb-4">
+            <img src="/assets/images/home/sintonyLogo.png" alt="Shoes" class="w-full h-full object-contain"/>
+        </figure>
+    </div>
+    <div class="divider lg:divider-horizontal"></div>
+    <div class="card bg-base-100 w-96 shadow-xl cursor-pointer" routerLink="/projects/catlearn">
+        <div class="card-body">
+            <h2 class="card-title">Aplicación web para Gestión de cursos para aprendizaje</h2>
+            <p>(CatLearn) - 2022</p>
+            <p>Uso de tecnologías Front￾end y Back-end con Laravel, Php, Sql, Xampp para servidor Sandbox</p>
+        </div>
+        <figure class="h-48 pb-4">
+            <img src="/assets/images/home/catLearnLogo.png" alt="Shoes" class="w-full h-full object-contain"/>
+        </figure>
+    </div>
+</div>
+
+<div class="flex justify-center bg-base-200">
+    <div class="divider divider-primary w-[90%]"></div>
+</div>
+<div class="flex justify-center bg-base-200 pb-5">
+    <h1 class="text-4xl font-bold ">Experiencia</h1>
+</div>
+
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical bg-base-200">
+    <li>
+        <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+        <div class="timeline-start mb-10 md:text-end">
+            <time class="font-mono italic">2021 - 2023</time>
+            <div class="text-lg font-black">Softitlan – Desarrollador Junior</div>
+            <b>Sistema control escolar:</b> Participé en el análisis, diseño, desarrollo y pruebas del sistema,
+            colaborando con
+            el equipo para asegurar
+            una solución integral y optimizada. Implementé el Front-end con Sencha Ext JS para mejorar la UI/UX, y
+            desarrollé la API Rest en el
+            Back-end utilizando Java Spring Boot. Además, gestioné la integración continua mediante DevOps, utilizando
+            un servidor sandbox
+            para pruebas y desplegando el sistema en AWS para producción. El sistema mejoró la administración escolar,
+            facilitando el acceso y
+            gestión de información para todos los usuarios, desde alumnos hasta administradores.
+        </div>
+        <hr />
+    </li>
+    <li>
+        <hr />
+        <div class="timeline-middle">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+                <path fill-rule="evenodd"
+                    d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                    clip-rule="evenodd" />
+            </svg>
+        </div>
+        <div class="timeline-end mb-10">
+            <time class="font-mono italic">2020 - 2024</time>
+            <div class="text-lg font-black">Universidad Autónoma de Tlaxcala – Club de programación</div>
+            Capacitación constante en tecnologías populares de desarrollo como JavaScript, React, Angular, Php, Java
+            Spring Boot,
+            Node JS, MySQL, Apache, AWS Cloud, Tomcat para despliegue de servidores y contenedores como Docker para
+            ejercicios de
+            escalabilidad.
+        </div>
+        <hr />
+    </li>
+</ul>
+
+<div class="flex justify-center bg-base-200">
+    <div class="divider divider-primary w-[90%]"></div>
+</div>
+<div class="flex justify-center bg-base-200 pb-5">
+    <h1 class="text-4xl font-bold ">Habilidades</h1>
+</div>
+
+<div class="flex bg-base-200 w-full flex-col lg:flex-row justify-center items-center gap-4 pb-5">
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>SOFTWARE:</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>IntelliJ</li>
+            <li>NetBeans</li>
+            <li>Visual Studio</li>
+            <li>Postman</li>
+            <li>Xampp</li>
+            <li>MySQL Workbench</li>
+            <li>Google Cloud Workspace</li>
+            <li>Microsoft Teams</li>
+        </ul>
+    </div>
+
+    <div class="divider lg:divider-horizontal"></div>
+
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>LENGUAJES:</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>Java (11/17)</li>
+            <li>JavaScript</li>
+            <li>MySQL</li>
+            <li>Php</li>
+            <li>C</li>
+            <li>C#</li>
+        </ul>
+    </div>
+
+    <div class="divider lg:divider-horizontal"></div>
+
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>FRAMEWORKS:</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>Spring Boot 3.3</li>
+            <li>Angular</li>
+            <li>Sencha Ext JS</li>
+            <li>Spring JPA</li>
+            <li>Spring Hibernate</li>
+            <li>JWT</li>
+        </ul>
+    </div>
+</div>
+
+<div class="flex bg-base-200 w-full flex-col lg:flex-row justify-center items-center gap-4 pb-5">
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>VERSIONADO</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>Git</li>
+            <li>Github</li>
+        </ul>
+    </div>
+
+    <div class="divider lg:divider-horizontal"></div>
+
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>METODOLOGÍAS:</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>Agile</li>
+            <li>Scrum</li>
+            <li>CMMI Dev</li>
+        </ul>
+    </div>
+
+    <div class="divider lg:divider-horizontal"></div>
+
+    <div class="mockup-code w-full lg:w-1/4 overflow-auto">
+        <pre data-prefix="$" class="bg-accent text-warning-content"><code><b>PLATAFORMAS:</b></code></pre>
+        <ul class="list-disc pl-10 space-y-2">
+            <li>Windows 10/11</li>
+            <li>Android</li>
+            <li>Linux Ubuntu</li>
+        </ul>
+    </div>
+</div>
+
+<div class="flex justify-center bg-base-200">
+    <div class="divider divider-primary w-[90%]"></div>
+</div>
+<div class="flex justify-center bg-base-200 pb-5">
+    <h1 class="text-4xl font-bold ">Educación</h1>
+</div>
+
+<div class="flex bg-base-200 w-full flex-col lg:flex-row justify-center pb-5">
+    <div class="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+          <img
+            src="/assets/images/home/uatxLogo.png"
+            alt="Shoes" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Ingeniería en Computación</h2>
+          <p>Universidad Autónoma de Tlaxcala</p>
+          <p>Agosto 2020 - Diciembre 2024</p>
+        </div>
+      </div>
+    <div class="divider lg:divider-horizontal"></div>
+    <div class="card card-compact bg-base-100 w-96 shadow-xl">
+        <figure>
+            <img src="/assets/images/home/cetisLogo.png" alt="UATX Logo" />
+        </figure>
+        <div class="card-body">
+          <h2 class="card-title">Carrera Técnica en Programación</h2>
+          <p>Centro de estudios tecnologicos, industriales y de servicios N.132</p>
+          <p>2017 - 2020</p>
+        </div>
+      </div>
+</div>
+
+<app-footer></app-footer>

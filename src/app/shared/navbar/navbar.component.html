@@ -1,0 +1,47 @@
+<!-- Navbar para pantallas grandes -->
+<div class="navbar bg-base-100 hidden md:flex">
+  <div class="flex-1">
+    <a class="btn btn-ghost text-xl" routerLink="/home">Yahir Armas</a>
+    <a class="btn btn-ghost text-l" routerLink="/">Inicio</a>
+    <a class="btn btn-ghost text-l" routerLink="/home/about">Sobre mí y Contacto</a>
+  </div>
+  <div class="flex-none">
+    <ul class="menu menu-horizontal px-1">
+      <li><a href="https://www.linkedin.com/in/luis-yahir-arlo" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+      <li><a href="https://github.com/iamitsily" target="_blank" rel="noopener noreferrer">Github</a></li>
+    </ul>
+  </div>
+</div>
+
+<!-- Navbar solo para móviles -->
+<div class="navbar bg-base-100 flex md:hidden">
+  <div class="navbar-start">
+    <a class="btn btn-ghost text-xl" routerLink="/home">Yahir Armas</a>
+  </div>
+  <div class="navbar-end">
+    <div class="dropdown dropdown-left">
+      <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="h-5 w-5"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor">
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M4 6h16M4 12h16M4 18h7" />
+        </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+        <li><a routerLink="/">Inicio</a></li>
+        <li><a routerLink="/home/about">Sobre mí y Contacto</a></li>
+        <li><a href="https://www.linkedin.com/in/luis-yahir-arlo" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
+        <li><a href="https://github.com/iamitsily" target="_blank" rel="noopener noreferrer">Github</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
